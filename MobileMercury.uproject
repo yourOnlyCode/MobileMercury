@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.26",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MobileMercury",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"MacNoEditor",
+		"WindowsNoEditorWin32"
+	]
+}
